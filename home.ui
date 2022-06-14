@@ -908,7 +908,7 @@ color: rgb(76, 76, 76);
                            <property name="frameShadow">
                             <enum>QFrame::Raised</enum>
                            </property>
-                           <layout class="QVBoxLayout" name="verticalLayout_30">
+                           <layout class="QVBoxLayout" name="verticalLayout_30" stretch="0,0">
                             <item>
                              <widget class="QFrame" name="frame_15">
                               <property name="frameShape">
@@ -1339,143 +1339,186 @@ border: 2px dashed rgb(76, 76, 76);
                              </widget>
                             </item>
                             <item>
-                             <widget class="QTableWidget" name="tableWidget_4">
-                              <property name="sortingEnabled">
-                               <bool>false</bool>
-                              </property>
-                              <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
-                               <bool>false</bool>
-                              </attribute>
-                              <attribute name="horizontalHeaderStretchLastSection">
-                               <bool>true</bool>
-                              </attribute>
-                              <column>
-                               <property name="text">
-                                <string>Product</string>
-                               </property>
-                              </column>
-                              <column>
-                               <property name="text">
-                                <string>Description</string>
-                               </property>
-                              </column>
-                              <column>
-                               <property name="text">
-                                <string>Price</string>
-                               </property>
-                              </column>
-                              <column>
-                               <property name="text">
-                                <string>Quantity</string>
-                               </property>
-                              </column>
-                              <column>
-                               <property name="text">
-                                <string>Amount</string>
-                               </property>
-                              </column>
-                             </widget>
-                            </item>
-                            <item>
-                             <widget class="QFrame" name="frame_20">
+                             <widget class="QFrame" name="frame_17">
                               <property name="frameShape">
                                <enum>QFrame::StyledPanel</enum>
                               </property>
                               <property name="frameShadow">
                                <enum>QFrame::Raised</enum>
                               </property>
-                              <layout class="QHBoxLayout" name="horizontalLayout_35">
+                              <layout class="QVBoxLayout" name="verticalLayout_35">
                                <item>
-                                <widget class="QPushButton" name="new_sales_order_btn_10">
-                                 <property name="font">
-                                  <font>
-                                   <family>Open Sans</family>
-                                   <pointsize>12</pointsize>
-                                   <weight>75</weight>
-                                   <bold>true</bold>
-                                  </font>
+                                <widget class="QTableWidget" name="tableWidget_4">
+                                 <property name="sortingEnabled">
+                                  <bool>false</bool>
                                  </property>
-                                 <property name="focusPolicy">
-                                  <enum>Qt::NoFocus</enum>
-                                 </property>
-                                 <property name="styleSheet">
-                                  <string notr="true">padding: 7px;</string>
-                                 </property>
-                                 <property name="text">
-                                  <string>Update</string>
-                                 </property>
-                                 <property name="icon">
-                                  <iconset>
-                                   <normaloff>img/plus 1.svg</normaloff>img/plus 1.svg</iconset>
-                                 </property>
-                                 <property name="iconSize">
-                                  <size>
-                                   <width>30</width>
-                                   <height>30</height>
-                                  </size>
-                                 </property>
+                                 <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+                                  <bool>false</bool>
+                                 </attribute>
+                                 <attribute name="horizontalHeaderStretchLastSection">
+                                  <bool>true</bool>
+                                 </attribute>
+                                 <column>
+                                  <property name="text">
+                                   <string>Product</string>
+                                  </property>
+                                 </column>
+                                 <column>
+                                  <property name="text">
+                                   <string>Description</string>
+                                  </property>
+                                 </column>
+                                 <column>
+                                  <property name="text">
+                                   <string>Price</string>
+                                  </property>
+                                 </column>
+                                 <column>
+                                  <property name="text">
+                                   <string>Quantity</string>
+                                  </property>
+                                 </column>
+                                 <column>
+                                  <property name="text">
+                                   <string>Amount</string>
+                                  </property>
+                                 </column>
                                 </widget>
                                </item>
                                <item>
-                                <widget class="QPushButton" name="new_sales_order_btn_11">
-                                 <property name="font">
-                                  <font>
-                                   <family>Open Sans</family>
-                                   <pointsize>12</pointsize>
-                                   <weight>75</weight>
-                                   <bold>true</bold>
-                                  </font>
+                                <widget class="QFrame" name="frame_18">
+                                 <property name="frameShape">
+                                  <enum>QFrame::StyledPanel</enum>
                                  </property>
-                                 <property name="focusPolicy">
-                                  <enum>Qt::NoFocus</enum>
+                                 <property name="frameShadow">
+                                  <enum>QFrame::Raised</enum>
                                  </property>
-                                 <property name="styleSheet">
-                                  <string notr="true">padding: 7px;</string>
-                                 </property>
-                                 <property name="text">
-                                  <string>Delete</string>
-                                 </property>
-                                 <property name="icon">
-                                  <iconset>
-                                   <normaloff>img/plus 1.svg</normaloff>img/plus 1.svg</iconset>
-                                 </property>
-                                 <property name="iconSize">
-                                  <size>
-                                   <width>30</width>
-                                   <height>30</height>
-                                  </size>
-                                 </property>
-                                </widget>
-                               </item>
-                               <item>
-                                <widget class="QPushButton" name="new_sales_order_btn_12">
-                                 <property name="font">
-                                  <font>
-                                   <family>Open Sans</family>
-                                   <pointsize>12</pointsize>
-                                   <weight>75</weight>
-                                   <bold>true</bold>
-                                  </font>
-                                 </property>
-                                 <property name="focusPolicy">
-                                  <enum>Qt::NoFocus</enum>
-                                 </property>
-                                 <property name="styleSheet">
-                                  <string notr="true">padding: 7px;</string>
-                                 </property>
-                                 <property name="text">
-                                  <string>Pay</string>
-                                 </property>
-                                 <property name="icon">
-                                  <iconset>
-                                   <normaloff>img/plus 1.svg</normaloff>img/plus 1.svg</iconset>
-                                 </property>
-                                 <property name="iconSize">
-                                  <size>
-                                   <width>30</width>
-                                   <height>30</height>
-                                  </size>
-                                 </property>
+                                 <layout class="QHBoxLayout" name="horizontalLayout_37">
+                                  <item>
+                                   <widget class="QFrame" name="frame_20">
+                                    <property name="frameShape">
+                                     <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                     <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <layout class="QHBoxLayout" name="horizontalLayout_35">
+                                     <item>
+                                      <widget class="QPushButton" name="new_sales_order_btn_10">
+                                       <property name="font">
+                                        <font>
+                                         <family>Open Sans</family>
+                                         <pointsize>12</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="focusPolicy">
+                                        <enum>Qt::NoFocus</enum>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">padding: 7px;</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>Update</string>
+                                       </property>
+                                       <property name="icon">
+                                        <iconset>
+                                         <normaloff>img/plus 1.svg</normaloff>img/plus 1.svg</iconset>
+                                       </property>
+                                       <property name="iconSize">
+                                        <size>
+                                         <width>30</width>
+                                         <height>30</height>
+                                        </size>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item>
+                                      <widget class="QPushButton" name="new_sales_order_btn_11">
+                                       <property name="font">
+                                        <font>
+                                         <family>Open Sans</family>
+                                         <pointsize>12</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="focusPolicy">
+                                        <enum>Qt::NoFocus</enum>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">padding: 7px;</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>Delete</string>
+                                       </property>
+                                       <property name="icon">
+                                        <iconset>
+                                         <normaloff>img/plus 1.svg</normaloff>img/plus 1.svg</iconset>
+                                       </property>
+                                       <property name="iconSize">
+                                        <size>
+                                         <width>30</width>
+                                         <height>30</height>
+                                        </size>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                     <item>
+                                      <widget class="QPushButton" name="new_sales_order_btn_12">
+                                       <property name="font">
+                                        <font>
+                                         <family>Open Sans</family>
+                                         <pointsize>12</pointsize>
+                                         <weight>75</weight>
+                                         <bold>true</bold>
+                                        </font>
+                                       </property>
+                                       <property name="focusPolicy">
+                                        <enum>Qt::NoFocus</enum>
+                                       </property>
+                                       <property name="styleSheet">
+                                        <string notr="true">padding: 7px;</string>
+                                       </property>
+                                       <property name="text">
+                                        <string>Pay</string>
+                                       </property>
+                                       <property name="icon">
+                                        <iconset>
+                                         <normaloff>img/plus 1.svg</normaloff>img/plus 1.svg</iconset>
+                                       </property>
+                                       <property name="iconSize">
+                                        <size>
+                                         <width>30</width>
+                                         <height>30</height>
+                                        </size>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
+                                   </widget>
+                                  </item>
+                                  <item>
+                                   <widget class="QFrame" name="frame_41">
+                                    <property name="frameShape">
+                                     <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                     <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <layout class="QHBoxLayout" name="horizontalLayout_36">
+                                     <item>
+                                      <widget class="QLabel" name="label_12">
+                                       <property name="text">
+                                        <string>TOTAL</string>
+                                       </property>
+                                      </widget>
+                                     </item>
+                                    </layout>
+                                   </widget>
+                                  </item>
+                                 </layout>
                                 </widget>
                                </item>
                               </layout>
